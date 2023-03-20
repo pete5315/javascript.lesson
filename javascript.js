@@ -4,10 +4,10 @@ function add7(){
     console.log(number);
 }
 
+let string = prompt("What is the text to capitalize?")
 
-function capitalize(){
+function capitalize(string){
     //document.getElementById("frm1").submit();
-    var string = prompt("What is the text to capitalize?")
     string=toUpperCase(slice.string(0,1))+toLowerCase(slice.string(1));
     console.log(string);
 }
