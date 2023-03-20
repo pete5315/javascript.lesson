@@ -9,4 +9,5 @@ function capitalize(string){
     //document.getElementById("frm1").submit();
     let string2=string.toUpperCase(0,1)+string.toLowerCase(1)
     console.log(string2);
+    string = string2;
 }
