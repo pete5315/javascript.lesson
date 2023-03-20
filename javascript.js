@@ -7,6 +7,6 @@ function add7(){
 
 function capitalize(string){
     //document.getElementById("frm1").submit();
-    string=toUpperCase(slice.string(0,1))+toLowerCase(slice.string(1));
+    string.toUpperCase(slice.string(0,1))+toLowerCase(slice.string(1));
     console.log(string);
 }
