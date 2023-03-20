@@ -4,7 +4,6 @@ function add7(){
     console.log(number);
 }
 
-let string = prompt("What is the text to capitalize?")
 
 function capitalize(string){
     //document.getElementById("frm1").submit();
