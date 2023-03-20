@@ -6,7 +6,8 @@ function add7(){
 
 
 function capitalize(){
-    document.getElementById("frm1").submit();
+    //document.getElementById("frm1").submit();
+    var string = prompt("What is the text to capitalize?")
     string=toUpperCase(slice.string(0,1))+toLowerCase(slice.string(1));
     console.log(string);
 }
