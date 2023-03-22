@@ -15,7 +15,9 @@
 <p>Enter your string:</p>
 <script>
   let string = prompt("What is the text to capitalize?")
-  let string2=string.toUpperCase(0,1)+string.toLowerCase(1)
+  let stringuppper=string.toUpperCase();
+  let stringlower=string.toLowerCase();
+  let string2=stringupper.slice(0,1)+stringlower.slice(1);
     console.log(string2);
     string = string2;
   alert(string)
