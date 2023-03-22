@@ -15,5 +15,6 @@ function capitalize(string){
     console.log(string2);
     console.log(string3);
     alert(string4);
-    string.slice(string.length);
+    let stringend=string.slice(string.length);
+    console.log(stringend):
 }
