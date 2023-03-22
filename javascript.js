@@ -12,7 +12,8 @@ function capitalize(string){
     let string2=stringupper.slice(0,1)
     let string3=stringlower.slice(1);
     let string4=string2+string3;
-      console.log(string2);
-      console.log(string3);
-      console.log(string4);
+    console.log(string2);
+    console.log(string3);
+    alert(string4);
+    string.slice(string.length);
 }
