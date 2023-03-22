@@ -7,7 +7,12 @@ function add7(){
 
 function capitalize(string){
     //document.getElementById("frm1").submit();
-    let string2=string.toUpperCase(0,1)+string.toLowerCase(1)
-    console.log(string2);
-    string = string2;
+    let stringupper=string.toUpperCase();
+    let stringlower=string.toLowerCase();
+    let string2=stringupper.slice(0,1)
+    let string3=stringlower.slice(1);
+    let string4=string2+string3;
+      console.log(string2);
+      console.log(string3);
+      console.log(string4);
 }
